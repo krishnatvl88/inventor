@@ -18,4 +18,8 @@ dependencies {
     compile group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '3.4.0'
     compile group: 'org.seleniumhq.selenium', name: 'selenium-chrome-driver', version: '2.23.0'
     compile group: 'org.seleniumhq.selenium', name: 'selenium-firefox-driver', version: '3.14.0'
+
+    testCompile("io.github.bonigarcia:webdrivermanager:1.4.1") {
+        exclude group: 'org.seleniumhq.selenium'
+    }
 }
