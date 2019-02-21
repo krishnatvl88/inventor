@@ -5,5 +5,3 @@ Feature: Login Feature
     When User enters Username and Password
     And User clicks on Login
     Then User verifies login success
-
-
