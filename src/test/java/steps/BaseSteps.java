@@ -11,7 +11,7 @@ import utils.Driver;
 public class BaseSteps {
 
     protected WebDriver getDriverInstanceFor() {
-        Driver driver = new Driver();
+        Driver driver = Driver.getInstanceDriverFor();
         return driver.getDriver();
     }
 
