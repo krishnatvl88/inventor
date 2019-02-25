@@ -1,6 +1,6 @@
 package testDataType;
 
 public class LoginInfo {
-    String userName;
-    String userPassword;
+    public String userName;
+    public String userPassword;
 }
